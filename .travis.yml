@@ -1,3 +1,9 @@
 install: true
 script: ./travis.sh
 
+notifications:
+  webhooks:
+    urls:
+      - https://requestb.in/1jfmgcw1
+    on_start: always
+
